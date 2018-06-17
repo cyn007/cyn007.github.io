@@ -1,0 +1,400 @@
+div#bigblock div {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	margin-top: 20px;
+	border-radius: 20px;	
+
+}
+
+div#bigblock div.blockvertical {
+	width:25%;
+        height: 1118px;
+	background-color:#313b45;
+	position: relative;
+	margin-left: 40px;
+	padding: 20px;
+		
+}
+
+div.pdp img{
+	border-radius :70%;
+	border: solid #696969;
+        margin:20px;
+	
+}
+
+div.pdp img:hover{
+    
+    border: 1px solid #696969;
+    border-radius: 95%;
+    background-color: rgba(0,0,0,1.5); 
+    box-shadow: 1px 1px 3px #eeeeee;
+}
+
+
+.nom{
+	font-family: Georgia, serif;
+	color: #F0F9F7;
+}
+
+.coo{
+	font-family: Georgia, serif;
+	color: #F0F9F7;	
+	
+}
+
+.langues{
+	width: 200px;
+	height: 100px;
+	display: block;
+	font-size: 1em;
+	border-radius: 6px;
+}
+
+div.langues p.l{
+	font-family: Georgia, serif;
+	color: #F0F9F7;
+	display: block;
+	border-radius: 6px;
+	background-color: #303E4C;
+	padding-left: 5px;
+	
+}
+div.langues{
+	font-family: Georgia, serif;
+	color: #F0F9F7;
+	
+}
+
+.hobbies{
+	width: 200px;
+	height: 100px;
+	display: block;
+	font-size: 1em;	
+}
+
+div.hobbies p.cdi{
+	color: #F0F9F7;
+	font-family: Georgia, serif;
+	display: block;
+	border-radius: 5px;
+	background-color: #303e4c;
+	padding-left: 5px;
+}
+div.hobbies p.cdi2{
+	color: #F0F9F7;
+	font-family: Georgia, serif;
+}
+
+button {
+    background-color: #0e76a8;
+	color : #FFFFFF;
+}
+
+button active {
+    background-color: #046380;
+    outline: none;
+}
+
+.btn2{
+		
+	left: 35px;
+	}
+
+div.blockhor{
+	margin-bottom: 10px;
+	
+}
+
+.emailform{
+    font-weight: bold;
+    color :#eeeeee;
+ 
+}
+div#bigblock div.blockhor{
+	width: 70%;
+	padding-left: 20px;
+	padding-right: 20px;
+        padding-bottom:20px;
+        height: 1120px;
+	background-color: #F8FAFF;
+	border: 10px solid #323D47;
+	position: relative;
+
+	
+}
+
+div.metier{
+	display: block;
+	position: relative;
+	width: 100%;
+	height:60px;
+	background-color: #323D47;
+	border: 1px solid #323D47;
+	text-align: center;
+	font-size: 150%;
+	font-family: New Century Schoolbook, Tex Gyre Schola, serif;
+	color: #FFFFFF;
+	padding-top: 6px;
+
+}
+
+div.form{
+	display: block;
+	width: 30%;
+	height: 290px;
+	background-color: #323D47;
+	border: 1px solid #323D47;
+	font-family:DK Cinnabar Brush,sans-serif;
+	color: #F0F9F7;
+	text-align: center;
+        font-size: 14px;
+        padding: 9px;
+	
+	
+	
+}
+
+div.blockformation {
+	font-size: 14px;
+	
+}
+
+div.comp{
+	display: block;
+	width: 30%;
+	height: 460px;
+	background-color: #323D47;
+	border: 1px solid #323D47;
+	text-align:center;
+	font-family:DK Cinnabar Brush,sans-serif;
+	color: #F0F9F7;
+        font-size: 14px;
+        padding: 9px;
+      
+	
+	
+}
+
+div.comptech{
+	
+	display : block;
+	width: 200px;
+	height: 150px;
+	font-weight: bold;
+        font-size: 15px;
+        padding-top: 8px;
+	
+	
+}
+
+div#expe{
+	display: block;
+	width: 38%;
+	padding: 9px;
+        height: 980px;
+	background-color: #323D47;
+	border: 1px solid #323D47;
+	text-align: center;
+	font-family: DK Cinnabar Brush,sans-serif;
+	color: #F0F9F7;
+	font-size: 14px;
+}
+
+button {
+	margin-top:5px;
+      
+}
+
+@media only screen and (max-width: 1170px) {
+        div#bigblock div.blockvertical {
+        width: 100%;
+        height: auto;
+	background-color:#313B45;
+	position: relative;
+	margin-left: 5px;
+	padding: 20px;
+	
+	}
+	
+	div.pdp img{
+	border-radius :50%;
+	border: solid #696969;
+        margin: 5px;
+	
+}
+	.nom{
+	font-family: Georgia, serif;
+	color: #F0F9F7;
+        font-size: 15px;
+}
+
+        .coo{
+	font-family: Georgia, serif;
+	color: #F0F9F7;	
+	font-size: 12px;
+	
+}
+	
+	.langues{
+	width: 200px;
+	height: 100px;
+	display: block;
+	font-size: 1em;
+	border-radius: 6px;
+		
+}
+
+        div.langues p.l{
+	font-family: Georgia, serif;
+	color: #F0F9F7;
+	display: block;
+	border-radius: 6px;
+	background-color: #303E4C;
+	padding-left: 5px;
+	width: 50%;
+	
+}
+	
+        div.langues{
+	font-family: Georgia, serif;
+	color: #F0F9F7;
+	font-size: 12px;
+	width: 80%;
+	
+}
+	
+	.hobbies{
+	width: 65%;
+	height: 40px;
+	display: block;
+	font-size: 12px;
+		
+}
+	
+        div.hobbies p.cdi{
+	color: #F0F9F7;
+	font-family: Georgia, serif;
+	display: block;
+	border-radius: 5px;
+	background-color: #303e4c;
+	padding-left: 5px;
+	
+}
+	
+        div.hobbies p.cdi2{
+	color: #F0F9F7;
+	font-family: Georgia, serif;
+	padding-top: 5%;
+	
+}
+
+        div#formulaire{
+	padding-top:20%;
+	
+	}
+	
+        button {
+        background-color: #0e76a8;
+	color : #FFFFFF;
+}
+
+        button active {
+        background-color: #046380;
+        outline: none;
+}
+	
+        div#bigblock div.blockhor{
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom:20px;
+	background-color: #FFFFFF;
+	border: 3px solid #323D47;
+	position: relative;
+        height: auto;
+	
+}
+	
+	div.metier{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 40px;
+	background-color: #323D47;
+	border: 1px solid #323D47;
+	text-align: center;
+	font-size: 11px;
+	font-family: New Century Schoolbook, Tex Gyre Schola, serif;
+	color: #FFFFFF;
+	padding-top: 6px;
+
+}
+	
+	div.form{
+	display: block;
+	width:100%;
+	height: 240px;
+	background-color: #323D47;
+	border: 1px solid #323D47;
+	font-family:DK Cinnabar Brush,sans-serif;
+	color: #F0F9F7;
+	text-align: center;
+	font-size: 12px;
+        
+		
+}
+	
+	div.blockformation {
+	font-size: 12px;
+	
+}
+	
+	div.comp{
+	display: block;
+	width: 100%;
+	height: 450px;
+	background-color: #323D47;
+	border: 1px solid #323D47;
+	text-align:center;
+	font-family:DK Cinnabar Brush,sans-serif;
+	color: #F0F9F7;
+        font-size: 12px;
+	
+}
+
+        div.comptech{
+	display : block;
+	width: 150px;
+	font-weight: bold;
+        padding-top: 1px;
+	
+}
+	
+	div#expe{
+	display: block;
+	width: 100%;
+        height: 1000px;
+       
+	padding: 5px;
+	background-color: #323D47;
+	border: 1px solid #323D47;
+	text-align: center;
+	font-family: DK Cinnabar Brush,sans-serif;
+	color: #F0F9F7;
+	font-size: 12px;
+		
+}
+
+        button {
+	margin-top: 1px;
+      
+}
+.btn2{
+		
+	left: 20px;
+	}
+
+}
+
