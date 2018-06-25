@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta charset="UTF-8">
+<title> My 2048 </title>
+<link rel="stylesheet" href="my2048.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="animate.css">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet"> 
+
+
+
+
+</head>
+    <body>
+        
+        <div class="animated flash infinite h"> 2048 </div>
+        
+        <div id="size-bloc">
+            <span>
+            <p id="size-title">Taille de grille : </p>
+            
+            <select id="size"> 
+                <option value="4"> 4 </option>
+                <option value="6"> 6 </option>
+                <option value="8"> 8 </option>
+                <option value="12"> 12 </option>
+            </select>
+            
+            <input id="change-size" type="button" value="Ok">
+            </span>
+        
+            <span id="bouton"> 
+                <input id="restart" type="button" value="restart" onclick="window.location.reload()">
+            </span>
+            
+        <div id="score"> SCORE </div>  
+        
+            <div id="canvas-bloc"> 
+                <canvas id="canvas" width="500" height="500"> </canvas>
+            </div>
+        </div>
+        
+        <footer> 
+        <div id="copyright"> &copy;Cynthia Raz </div>
+        </footer>   
+        
+    <script src="script.js"> </script>  
+    </body>
+    
+</html>
