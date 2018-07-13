@@ -1,0 +1,85 @@
+h1 {
+    
+    margin-left: 35%;
+    color: activeborder;
+
+}
+
+#matrice {
+
+border: 10px solid black;
+width: 600px;
+height: auto;
+margin-left: 28%;
+
+	
+
+}
+
+
+
+.row ul li {
+
+display: inline-block;
+margin-right: 40px;
+margin-bottom: 40px;
+margin-top: 5px;
+
+
+}
+
+
+
+.carre {
+
+width: 60px;
+height:60px;
+border: 2px solid black;
+	
+
+}
+
+
+
+.rond {
+
+width: 60px;
+height:60px;
+border: 2px solid black;
+border-radius:100px;
+
+
+
+}
+
+
+
+.losange {
+
+height: 50px;
+width: 50px;
+margin-left:10px;
+
+    -moz-transform: rotate(45deg); /* Firefox */
+
+    -webkit-transform: rotate(45deg); /* Safari et Chrome */
+
+    -o-transform: rotate(45deg); /* Opera */
+
+ border: 2px solid black;
+
+}
+
+
+.plein{
+    
+    background-color: black ;
+
+}
+
+.vide{
+
+    background-color: #ffffff;
+
+}
+
