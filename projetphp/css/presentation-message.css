@@ -1,0 +1,89 @@
+.list-navbar li{
+	display:inline-block;
+
+}
+.list-navbar img{
+	display:inline-block;
+	border:1px solid orange;
+
+}
+.list-navbar figure {
+	font-family: 'Cinzel', serif;
+}
+.sections-forum {
+	margin-top:30px;
+	margin-bottom:50px;
+}
+
+#body-message {
+	margin-top:40px;
+}
+.titre-forum {
+			margin-top:5px;
+	background-color:black;
+	padding:5px;
+	border-radius:10px;
+	color:white;
+}
+.nom-sujet {
+	color:orange;
+	font-family: 'Cinzel', serif;
+}
+.membre-sujet{
+	color:blue;
+	font-family: 'Cinzel', serif;
+}
+.date-sujet {
+	color:gray;
+	font-family: 'Cinzel', serif;
+	font-size:0.8em;
+}
+.entetemessage {
+	font-size:0.7em;
+	margin-bottom:20px;
+}
+.table {
+	font-family: 'Cinzel', serif;
+	color:black;
+}
+thead {
+	background-color: #f0810f;
+}
+tbody {
+	background-color:lightgray;
+}
+td {
+	border-right:1px dotted black;
+}
+.table-membres{
+	width:24%;
+border-right:1px dotted black;
+}
+.statut {
+	font-family: 'Arvo', serif;
+	font-size:0.8em;
+	color:darkslateblue;
+}
+.date-inscription {
+		font-family: 'Arvo', serif;
+	font-size:0.8em;
+	color:coral;
+}
+.membres {
+		font-family: 'Arvo', serif;
+	font-size:1em;
+	color:forestgreen;
+}
+
+.content-mess {
+			font-family: 'Arvo', serif;
+	font-size:1em;
+
+}
+
+.nouveau {
+	background-color:blue;
+	padding:10px;
+	color:white;
+	
+}

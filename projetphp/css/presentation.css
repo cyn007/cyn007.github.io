@@ -1,0 +1,61 @@
+.list-navbar li{
+	display:inline-block;
+
+}
+.list-navbar img{
+	display:inline-block;
+	border:1px solid orange;
+
+}
+.list-navbar figure {
+	font-family: 'Cinzel', serif;
+}
+.sections-forum {
+	margin-top:30px;
+	margin-bottom:50px;
+}
+
+#body-sujets {
+	margin-top:40px;
+}
+.titre-forum {
+			margin-top:5px;
+	background-color:black;
+	padding:5px;
+	border-radius:10px;
+	color:white;
+}
+.nom-sujet {
+	color:orange;
+	font-family: 'Cinzel', serif;
+}
+.membre-sujet{
+	color:blue;
+	font-family: 'Cinzel', serif;
+}
+.date-sujet {
+	color:gray;
+	font-family: 'Cinzel', serif;
+	font-size:0.8em;
+}
+.entetesujets {
+	font-size:0.7em;
+	margin-bottom:20px;
+}
+.table {
+	font-family: 'Cinzel', serif;
+	color:black;
+}
+thead {
+	background-color: #f0810f;
+}
+tbody {
+	background-color:ghostwhite;
+}
+
+.nouveau {
+	background-color:blue;
+	padding:10px;
+	color:white;
+	
+}

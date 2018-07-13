@@ -1,0 +1,135 @@
+body{
+	color:white;
+	 font-family: 'Anton', sans-serif;
+}
+
+
+.main-navbar {
+	margin-top:5px;
+	background-image:url('../assets/img/bluewave.jpg');
+	background-size:cover;
+	/*
+background: linear-gradient(to right,#0f2535, #063852);*/
+	padding-top:17px;
+	padding-bottom:8px;
+	border-radius:1px;
+}
+.list-navbar li {
+	display:inline;
+	margin-right:40px;
+	color:orange;
+	
+}
+.session-nav {
+	color:white;
+}
+.list-navbar a {
+	color:white;
+}
+.welcome {
+	padding-right:150px;
+}
+ a:hover {
+	color:gold;
+	text-decoration: none;
+}
+.forum-music img {
+	margin-top:5px;
+	
+}
+.forum-music{
+	position:relative;
+	margin-top:10px;
+	margin-bottom: 18px;
+	
+}
+.les-forums {
+	position:absolute;
+	top:0
+}
+.les-forums {
+display:none;
+}
+.les-forums img {
+position:relative;
+border:1px solid white;
+}
+.caption {
+    position: absolute;
+top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+/* border:1px solid white;*/
+  font-family: 'Anton', sans-serif;
+  
+  padding:10px;
+ /*
+  background-color: rgba(15,37,53,0.6) ;*/
+}
+
+  .les-forums{
+  color: white !important;
+	
+  }
+.les-forums a{
+  color:white !important;
+  text-shadow: 2px 2px 2px black;
+	
+ 
+  }
+
+  .les-forums .nbdemessages{
+  color: #f0810f !important;
+  }
+  .les-forums .nbdesujets{
+  color: orangered !important;
+  }
+
+.les-forums img {
+	
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.les-forums .categories:hover {
+
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	color:gold;
+	
+	text-shadow:2px 1px 1px black;
+}
+.nb-content {
+	background: linear-gradient(to right,#0f2535, #161720);
+	border-radius:6px;
+	padding:2px;
+}
+#content-infos {
+	margin-top:20px;
+	font-size:0.8em;
+	background-color: #011a27;
+		padding:20px;
+	font-family: 'Arvo', serif;
+}
+#content-infos h6{
+	background-color: #f0810f;
+		padding:20px;
+	font-family: 'Anton', sans-serif;
+}
+.nbde {
+  
+	color:burlywood;
+}
+#socialmedia i {
+  padding:20px;
+	font-size:3em;
+}
+
+footer {
+	margin-top:10px;
+	color:black;
+	background-color:azure;
+	padding:15px;
+	font-size:10px;
+}

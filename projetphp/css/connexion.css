@@ -1,0 +1,109 @@
+.navbar img {
+  width:150px;
+  border-radius:20px;
+}
+
+#connexion-content {
+	background-image: url('../assets/img/beyonce.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  height:auto;
+ 
+}
+
+
+/*Formulaire */
+
+#colgauche{
+  background-color: transparent;
+  padding-bottom:15%;
+
+}
+
+.login
+{
+  padding-top:150px;
+}
+
+.login h1 {
+	font-family: 'Anton', sans-serif;
+	margin-left:0px;
+  font-size:2em;
+  color:white;
+}
+
+.form-element i {
+        color:orangered;
+        position: absolute;
+        left: 20%;
+        transform: translate(-50%,-90%);
+     }
+
+    .form-element {
+      width: 80%;
+      position: relative;
+      border-bottom: 1px solid black;
+      padding:10px;
+      margin-left:10px;
+      }
+
+        .login span {
+        display: inline-block;
+        width: 20%;
+        color: black;
+        }
+
+        .erreur {
+        	color:red;
+        	padding-top:10px;
+        	margin-left:50px
+        }
+        
+      input {
+        display: inline-block;
+        width: 80%;
+        margin: 10px 0 0 0;
+        padding: 10px 10px 20px 20px;
+        background: transparent;
+        outline: none;
+        border: none;
+        color: white;
+        &::placeholder
+          color: black;
+          font-size: 1em;
+          font-weight: 500;
+      }
+    button {
+      position: relative;
+      margin: 40px;
+      width: 60%;
+      padding: 10px;
+      outline: none;
+      border: none;
+      border-radius: 25px;
+      text-transform: uppercase;
+      background: #D32F2F;
+      color: white;
+      font-weight: 800;
+      cursor: pointer;
+}
+
+#content-infos span {
+
+        width: 100%;
+        
+}
+.number {
+  color:white;
+}
+/******* NG ********/
+
+
+    .ng-invalid.ng-touched {
+      color:red;
+    }
+
+
+      button:disabled {
+    background-color:#717782;
+}

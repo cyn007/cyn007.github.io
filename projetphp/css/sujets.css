@@ -1,0 +1,55 @@
+.main-logo {
+	margin-top:5px;
+	background-color:black;
+	padding:40px;
+	border-radius:10px;
+
+}
+.main-navbar {
+		margin-top:5px;
+	background-color:black;
+	padding:10px;
+	border-radius:10px;
+}
+.list-navbar li {
+	display:inline;
+	margin-right:40px;
+	color:white;
+}
+
+.sections-forum{
+  margin-top:5px;
+	background-color:darkblue;
+	padding:10px;
+	border-radius:10px;
+	font-size:1.5em;
+	
+}
+a {
+ 
+	color:white;
+}
+.page-header a:hover {
+	color:white;
+}
+
+#body-sujets {
+	margin-top:30px;
+}
+.titre-forum {
+			margin-top:5px;
+	background-color:black;
+	padding:5px;
+	border-radius:10px;
+	color:white;
+}
+.nom-sujet {
+	color:orange;
+}
+.membre-sujet{
+	color:blue;
+}
+.date-sujet {
+	color:gray;
+	
+}
