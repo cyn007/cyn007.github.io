@@ -1,0 +1,165 @@
+@charset "UTF-8";
+
+body,html {
+    padding: 0;
+    margin: 0;
+}
+
+#titre{
+    display: block;
+    margin-top: 30px;
+    font-family: Arvo, serif;
+    font-size: 30px;
+    color: #423d3d;
+    line-height: 2em;
+}
+
+img{
+    display: block;
+    position: relative;
+    padding-top: 50px;
+    padding-left: 65px;
+    
+}
+
+.epaule{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #1B6975;
+    border-radius: 40%;
+    top: 22%;
+    left: 160px;
+    background-color: rgba(141,50,86,0.23);
+    cursor : pointer;
+}
+
+.epaule:hover{
+    border: 1px solid #514d4d;
+    border-radius: 90%;
+    background-color: rgba(0,0,0,0.3); 
+    box-shadow: 1px 1px 3px #8d3256;
+}
+
+.coude{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #d6a277;
+    border-radius: 40%;
+    top: 40%;
+    left: 70px;
+    background-color: rgba(141,50,86,0.23);
+    cursor : pointer;
+}
+
+.coude:hover{
+    border: 1px solid #514d4d;
+    border-radius: 90%;
+    background-color: rgba(0,0,0,0.3); 
+    box-shadow: 1px 1px 3px #8d3256;
+}
+
+.main{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #9AA935;
+    border-radius: 40%;
+    top: 52%;
+    left: 59px;
+    background-color: rgba(141,50,86,0.23);
+    cursor : pointer;
+}
+
+.main:hover{
+    border: 1px solid #514d4d;
+    border-radius: 90%;
+    background-color: rgba(0,0,0,0.3); 
+    box-shadow: 1px 1px 3px #8d3256;
+}
+
+.jambe{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #560B2B;
+    border-radius: 40%; 
+    top: 60%;
+    left: 150px;
+    background-color: rgba(141,50,86,0.23);
+    cursor : pointer;
+}
+
+.jambe:hover{
+    border: 1px solid #514d4d;
+    border-radius: 90%;
+    background-color: rgba(0,0,0,0.3); 
+    box-shadow: 1px 1px 3px #8d3256;
+}
+
+.mollet{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #9a6b84;
+    border-radius: 40%;
+    top: 78%;
+    left: 145px;
+    background-color: rgba(141,50,86,0.23);
+    cursor : pointer;
+}
+
+.mollet:hover{
+    border: 1px solid #514d4d;
+    border-radius: 90%;
+    background-color: rgba(0,0,0,0.3); 
+    box-shadow: 1px 1px 3px #8d3256;
+}
+
+.cheville{
+    display: block;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #2C7FB4;
+    border-radius: 40%;
+    top: 89%;
+    left: 100px;
+    background-color: rgba(141,50,86,0.23);
+    cursor : pointer;
+    
+}
+
+.cheville:hover{
+    border: 1px solid #514d4d;
+    border-radius: 90%;
+    background-color: rgba(0,0,0,0.3); 
+    box-shadow: 1px 1px 3px #8d3256;
+}
+
+.titretexte{
+    font-weight: bold;
+    font-size: 20px;
+    color: #776f6f;
+}
+
+.corpstexte{
+    color: #514d4d;
+}
+
+footer div#copyright{
+    display: block;
+    float: right;
+    padding-top: 30px;
+    padding-right: 80px;
+  
+    
+}
+
+
